@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GYMTRACK</title>
+</head>
+
+<!-- CSS -->
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+<!-- Javascript -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<body>
+    <!-- HEADER -->
+    <header class="header overlay" id="homePage">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" srcset=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-right" id="navbarNav">
+                    <ul class="navbar-nav ml-auto navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#appInfo"> Bir Göz At</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Antrenman Programları</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#trainers"> Online Eğitmenler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="modal" href="#modalRegisterForm">Üye Ol</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#login">Giriş</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="headTitles">
+                <div align="center">
+                    <div class="mainTitle">
+                        <h1 id="mainTitle">GYM ve Kardiyo Takipçisi</h1>
+                    </div>
+                    <div class="definition">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloribus sed est nemo
+                            ratione laboriosam tempora a eum minima dolorum.</p>
+
+                        <!-- Register Modal -->
+                    </div>
+                    <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog"
+                        aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header text-center">
+                                    <h4 class="modal-title w-100 font-weight-bold">Sign up</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body mx-3">
+                                    <div class="md-form mb-5">
+                                        <i class="fas fa-user prefix grey-text"></i>
+                                        <input type="text" id="orangeForm-name" class="form-control validate">
+                                        <label data-error="wrong" data-success="right" for="orangeForm-name">Your
+                                            name</label>
+                                    </div>
+                                    <div class="md-form mb-5">
+                                        <i class="fas fa-envelope prefix grey-text"></i>
+                                        <input type="email" id="orangeForm-email" class="form-control validate">
+                                        <label data-error="wrong" data-success="right" for="orangeForm-email">Your
+                                            email</label>
+                                    </div>
+
+                                    <div class="md-form mb-4">
+                                        <i class="fas fa-lock prefix grey-text"></i>
+                                        <input type="password" id="orangeForm-pass" class="form-control validate">
+                                        <label data-error="wrong" data-success="right" for="orangeForm-pass">Your
+                                            password</label>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button class="btn btn-deep-orange">Sign up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" id="submitButton" class="btn btn-warning btn-lg" data-toggle="modal"
+                        data-target="#modalRegisterForm">Ücretsiz Kayıt Ol!</button>
+                </div>
+            </div>
+    </header>
+
+    <!-- Sign-Up -->
+
+
+    <!-- TAKE A TOUR -->
+    <section class="appInfo" id="appInfo">
+        <div class="container" id="Info">
+            <div class="row justify-content-center pt-5">
+                <h1 id="infoTitle">GYMTRACK</h1><br>
+            </div>
+            <div align="center">
+                <div class="info-P">
+                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
+                        for
+                        previewing layouts and visual mockups.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione error odio eius ipsam ad,
+                        consectetur quaerat provident! At harum, perferendis quos dicta saepe sit facilis, labore
+                        eligendi quod recusandae quaerat!</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- TRAINERS -->
+    <section class="trainers" id="trainers">
+        <div class="container">
+            <div class="row justify-content-center pt-5">
+                <h2 id="title">ANTRENÖRLERİMİZ</h2>
+            </div>
+            <div class="trainerCards">
+                <div class="card-deck justify-content-center">
+
+                    <!-- CARD 1 -->
+                    <div class="card">
+                        <img class="rounded-circle" src="images/trainers/trnr1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Misty Barker</h5>
+                            <p class="card-text text-center">As a teenager, Misty Barker weighed 15 stone, which is
+                                about twice what she weighs now. When she overhauled her life through exercise and
+                                nutrition, a newfound passion for fitness led Barker into personal training.</p>
+                        </div>
+                    </div>
+                    <!-- CARD 2 -->
+                    <div class="card">
+                        <img class="rounded-circle" src="images/trainers/trnr2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Pat Divily</h5>
+                            <p class="card-text text-center">Two years ago Pat Divilly was working at a pizzeria in
+                                Galway and feeling down on his luck. </p>
+                        </div>
+                    </div>
+                    <!-- CARD 3 -->
+                    <div class="card">
+                        <img class="rounded-circle" src="images/trainers/trnrrr3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Jean-Claude Van Damme</h5>
+                            <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Laborum sed doloribus blanditiis enim vero veniam nisi quas, fuga esse mollitia nihil
+                                iste? </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-nav">
+                    <nav class="navbar navbar-expand-sm">
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">HAKKIMIZDA</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">REFERANSLAR</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">İLETİŞİM</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="footer-social">
+                    <div class="footer-social-content">
+                        <a href="#"><span>INSTAGRAM</span></a>
+                        <span>&#8280;</span>
+                        <a href="#"><span>FACEBOOK</span></a>
+                        <span>&#8280;</span>
+                        <a href="#"><span>TWITTER</span></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <span>&copy; 2019 Tüm Hakları Saklıdır. E-mail:info@gymtrack.com</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

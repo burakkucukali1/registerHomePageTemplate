@@ -1,0 +1,147 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/*Header*/
+.header {
+    height: 100vh;
+    background-image: url("../images/background.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar img {
+    height: 10vh;
+    top:0%;
+}
+.navbar-nav li {
+    margin-left: 30px;
+    color:rgb(172, 59, 59);
+    font-size: 17px;
+   font-weight: bold;
+}
+.navbar-nav li a:hover, .navbar-nav > .active > a {
+    color:white !important;
+}
+.collapse {
+    min-width: 100px !important;
+}
+.headTitles {
+    position: absolute;
+    display: block;
+    top: 40vh;
+    left:40vh;
+    color: white;     
+}
+#mainTitle{
+    font-size: 3.5rem;
+}
+
+.definition {
+    margin: auto;
+    width: 50%;   
+}
+
+/* TRAINERS */
+.trainers {
+    background: white; 
+}
+.trainers .card {
+    max-width: 30vw;
+    min-width: 300px;
+    padding: 0px 16px;
+    border: none;
+    margin: 1px;
+    background: white;
+}
+#title{
+    color: white;
+}
+.trainers .card .card-title{
+    top: 30%;
+    font-size: 4vh;
+    color: black;
+}
+.trainers .card .img{
+/* max-width:100%; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.trainers .card p {
+    font-size:15px;
+    color: black;
+}
+
+/* INFO PARTS*/
+#appInfo {
+    height:80vh;
+    background-image: url("../images/infobggg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info-P{
+    color:white;
+    position: absolute;
+    display: block;
+    left:85vh;   
+}
+#infoTitle {
+    color:white;
+    padding-left: 75vh;
+}
+
+/* FOOTER */
+.footer-top {
+    background: black;
+}
+
+.footer-nav {
+    display: block;
+    border-bottom: 1px solid #6a677b;
+    line-height: 14vh;
+}
+footer .collapse .navbar-nav {
+    margin:-35px auto;
+}
+footer .nav-item {
+    margin: 0 25px;
+    
+}
+footer .nav-item a{
+    color: #6a677b;
+    font-size: 12px;
+}
+footer .nav-item a:hover{
+    color: #d5d3e0;
+}
+.footer-social {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-social-content span {
+    color: #6a677b;
+    margin: 0 2vw;
+    line-height: 10vh;
+}
+.footer-social-content a:hover{
+    text-decoration: none;
+}
+.footer-social-content a:hover span{
+    color: #d5d3e0;
+}
+.copyright {
+    height: 5vh;
+    background: #151418;
+    color: #6b697c;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+
